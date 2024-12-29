@@ -1,0 +1,110 @@
+export const data = [
+  {
+    name: "Rahul",
+    age: 30,
+    address: "Pune",
+    employed: true,
+    profession: "Software Engineer",
+    study: ["Computer Science"],
+    ownsVehicle: true,
+    vehicles: [{ type: "Car", specifics: ["BMW"] }],
+    interests: [
+      { type: "Playing", specifics: ["Chess"] },
+      { type: "Gardening", specifics: [] },
+    ],
+    pets: [
+      {
+        type: "Dog",
+        breed: "Golden Retriever",
+        name: "Max",
+        age: 4,
+        vaccinated: true,
+        activities: [{ type: "playing fetch", specifics: ["In park"] }],
+      },
+    ],
+  },
+  {
+    name: "Ananya",
+    age: 30,
+    address: "Bengalore",
+    employed: false,
+    profession: "",
+    study: ["Computer Science", "Minor in Graphic Design"],
+    ownsVehicle: false,
+    vehicles: [],
+    interests: [
+      { type: "Cooking", specifics: ["Experiments with Italian recipes"] },
+    ],
+    pets: [
+      {
+        type: "Bird",
+        breed: "Parrot",
+        name: "Kiwi",
+        age: 5,
+        vaccinated: true,
+        activities: [
+          { type: "Mimicing voice", specifics: ["Knows over 20 phrases"] },
+        ],
+      },
+    ],
+  },
+  {
+    name: "Ramesh",
+    age: 45,
+    address: "Jaipur",
+    employed: true,
+    profession: "Business Owner",
+    study: [],
+    ownsVehicle: false,
+    vehicles: [],
+    interests: [
+      { type: "Gardening", specifics: ["Tending to rose garden"] },
+      { type: "Reading", specifics: ["Historical fiction", "Sci-Fi"] },
+    ],
+    pets: [
+      {
+        type: "Cat",
+        breed: "Parsian",
+        name: "Bella",
+        age: 3,
+        vaccinated: true,
+        activities: [{ type: "Lounging in the sun", specifics: [] }],
+      },
+      {
+        type: "Cat",
+        breed: "Parsian",
+        name: "Leo",
+        age: 3,
+        vaccinated: true,
+        activities: [{ type: "Lounging in the sun", specifics: [] }],
+      },
+    ],
+  },
+  {
+    name: "Kavya",
+    age: 28,
+    address: "Chennai",
+    employed: false,
+    profession: "Professional dancer",
+    study: [],
+    ownsVehicle: false,
+    vehicles: [],
+    interests: [
+      { type: "Reading", specifics: ["Fantasy novels", "Comic"] },
+      { type: "Watching Shows", specifics: ["sci-fi"] },
+    ],
+    pets: [
+      {
+        type: "Rabbit",
+        breed: "Rescue",
+        name: "Snowy",
+        age: 2,
+        vaccinated: true,
+        activities: [
+          { type: "Hopping", specifics: ["Around backyard"] },
+          { type: "Nobbling", specifics: ["On carrots"] },
+        ],
+      },
+    ],
+  },
+];
